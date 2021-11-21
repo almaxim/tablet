@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/teacup-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Trivia</title>
+  </head>
+  <body>
+     <header>
+        <a class = "skip" href="#main">Skip to Main Content</a>
+       <nav>
+        <img src = "images/logo.png" id = "logo" alt = "logo with green background that says world of tea with smaller Japanese characters under"/> 
+        <ul id="links"> 
+          <li><a href = "worldoftea.html">Home</a></li>
+          <li><a href = "typesoftea.html">Types of Tea</a></li>
+          <li id = "current"><a href = "trivia.html">Trivia</a></li>
+          <li><a href = "resources.html">Resources</a></li>
+        </ul>
+      </nav>
+      <div id = "paral">
+        <h1>Are you a tea expert or newbie?</h1>
+        <p>Press the "answer" button to see the response to each question and test your knowledge</p>
+      </div>
+     </header>
+     <main id = "main">
+      <div class = "quiz">
+        <div> 
+          <p class = "question">What is the most expensive type of tea?</p>
+          <!-- Credit: https://www.pxfuel.com/en/free-photo-xsqam -->
+          <img src = "images/tea2.jpg" alt = "A side view of a tray with a turquoise teapot and cup"/>
+        </div> 
+        <div class = "ans">
+          <BUTTON ONCLICK="ShowAndHide1()">Answer</BUTTON>
+          <p id = "answerButton1" style="visibility: hidden;">Oolong. The priciest tea in the world can be found in China and often goes under the name of "Tieguanyin", selling at nearly $1,500 per pound!</p></div>
+        <div> 
+          <p class = "question">What plant do tea leaves come from?</p>
+          <!-- Credit: https://www.farmbizafrica.com/market/3551-government-tea-reforms-lead-to-record-40-price-rise -->
+          <img src = "images/tea3.jpg" alt = "A hand reaches out to touch a field of green tea leaves"/> 
+        </div> 
+        <div class = "ans">
+          <BUTTON ONCLICK="ShowAndHide2()">Answer</BUTTON>
+          <p id = "answerButton2" style="visibility: hidden;">Camellia Sinensis. All teas come from the same plant besides herbal infusions.</p></div>
+        <div> 
+          <p class ="question">Which tea is the most oxidized?</p>
+          <!-- Credit: https://commons.wikimedia.org/wiki/File:Tea_herbal.jpg -->
+          <img src = "images/tea1.jpg" alt = "Arial view of two glass teacups with green leaves and yellow tea inside"/> 
+        </div> 
+        <div class = "ans">
+          <BUTTON ONCLICK="ShowAndHide3()">Answer</BUTTON>
+          <p id = "answerButton3" style="visibility: hidden;">Black tea has the longest oxidation period. White tea is the least.</p></div>
+        <div> 
+          <p class = "question">What health benefits can tea have?</p>
+          <!-- Credit: https://www.hippopx.com/en/query?q=tea%20time -->
+          <img src = "images/tea4.jpg" alt = "An orange bowl holds frothy, green matcha and sweets are on the left side"/> 
+        </div> 
+        <div class = "ans">
+          <BUTTON ONCLICK="ShowAndHide4()">Answer</BUTTON>
+          <p id = "answerButton4" style="visibility: hidden;">Many! Tea is known to help with sleep and reduced inflamation, digestion, stress relief, and more.</p></div>
+      </div>
+      <script src="js/effects.js"></script>
+     </main>
+
+     <footer> 
+        <p> Designed by Alexandra Ioana Maxim © 2021 </p>
+      </footer>
+  </body>
+</html>
